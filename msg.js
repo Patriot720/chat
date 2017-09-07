@@ -18,7 +18,6 @@ class DOMHandler {
         for (var item of json) {
             megastring += this.getDiv(item);
         }
-        console.log('Kappa')
         return megastring;
     }
     putOnPage(str) {
