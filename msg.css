@@ -1,0 +1,63 @@
+#main {
+    width: 900px;
+    height: 800px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#submain {
+    width: 675px;
+    float: left;
+}
+
+#dialogs {
+    width: 225px;
+    float: right;
+    overflow: hidden;
+}
+
+#dialogs div {
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: center;
+    background-color: lightblue;
+    cursor: pointer;
+    border-bottom: 1px solid lightcoral;
+}
+
+#dialogs div:hover {
+    background-color: whitesmoke;
+}
+
+#messages {
+    overflow: scroll;
+    height: 600px;
+    margin: 0 auto;
+}
+
+#sendBox {
+    height: 200px;
+}
+
+#text {
+    margin-left: 50px;
+    height: 100px;
+    width: 500px;
+}
+
+.msg {
+    height: 40px;
+    line-height: 40px;
+    vertical-align: center;
+}
+
+.msgtxt,
+.date {
+    display: inline;
+}
+
+#sendButton {
+    width: 120px;
+    height: 40px;
+}
